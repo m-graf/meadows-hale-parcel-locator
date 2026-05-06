@@ -1,0 +1,12 @@
+server.pem
+https_server.py
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+
+# Dashboard generator deps (run npm install locally)
+scripts/dashboard-gen/node_modules/
